@@ -1,0 +1,58 @@
+Dam_Type,Category,Observation
+Concrete,Structural Integrity,Concrete cracks
+Concrete,Structural Integrity,Spalling
+Concrete,Structural Integrity,Joint displacements
+Concrete,Structural Integrity,Foundation defects
+Concrete,Structural Integrity,Stress concentrations
+Concrete,Structural Integrity,Stability factors
+Concrete,Vegetation and Surface Conditions,Vegetation in joints
+Concrete,Vegetation and Surface Conditions,Surface debris
+Concrete,Vegetation and Surface Conditions,Staining
+Concrete,Seepage and Drainage,Seepage through joints
+Concrete,Seepage and Drainage,Uplift pressures
+Concrete,Seepage and Drainage,Drain blockages
+Concrete,Seepage and Drainage,Leakage at contacts
+Concrete,"Spillways, Outlets, and Appurtenant Structures",Spillway blockages
+Concrete,"Spillways, Outlets, and Appurtenant Structures",Gate malfunctions
+Concrete,"Spillways, Outlets, and Appurtenant Structures",Lining erosion
+Concrete,"Spillways, Outlets, and Appurtenant Structures",Outlet scour
+Concrete,"Spillways, Outlets, and Appurtenant Structures",Intake clogs
+Concrete,"Spillways, Outlets, and Appurtenant Structures",Control operability
+Concrete,Instrumentation and Monitoring,Anomalous readings
+Concrete,Instrumentation and Monitoring,Equipment failures
+Concrete,Instrumentation and Monitoring,Threshold exceedances
+Concrete,Miscellaneous,Unauthorized access
+Concrete,Miscellaneous,Vandalism signs
+Concrete,Miscellaneous,Safety hazards
+Concrete,Environmental,Inundation risks
+Concrete,Environmental,Sediment buildup
+Concrete,Environmental,Downstream impacts
+Earthen,Embankment Integrity,Embankment cracks
+Earthen,Embankment Integrity,Surface settlement
+Earthen,Embankment Integrity,Slope slumps
+Earthen,Embankment Integrity,Erosion rills
+Earthen,Embankment Integrity,Crest settlement
+Earthen,Embankment Integrity,Foundation instability
+Earthen,Seepage and Drainage,Internal erosion
+Earthen,Seepage and Drainage,Piping
+Earthen,Seepage and Drainage,Sand boils
+Earthen,Seepage and Drainage,Wet areas
+Earthen,Seepage and Drainage,Drain failures
+Earthen,Vegetation and Surface Conditions,Excessive vegetation
+Earthen,Vegetation and Surface Conditions,Animal burrows
+Earthen,Vegetation and Surface Conditions,Surface rutting
+Earthen,Vegetation and Surface Conditions,Protective riprap damage
+Earthen,"Spillways, Outlets, and Appurtenant Structures",Spillway blockages
+Earthen,"Spillways, Outlets, and Appurtenant Structures",Gate malfunctions
+Earthen,"Spillways, Outlets, and Appurtenant Structures",Outlet erosion
+Earthen,"Spillways, Outlets, and Appurtenant Structures",Conduit collapse
+Earthen,"Spillways, Outlets, and Appurtenant Structures",Intake clogs
+Earthen,Instrumentation and Monitoring,Anomalous readings
+Earthen,Instrumentation and Monitoring,Equipment failures
+Earthen,Instrumentation and Monitoring,Threshold exceedances
+Earthen,Miscellaneous,Unauthorized structures
+Earthen,Miscellaneous,Vandalism signs
+Earthen,Miscellaneous,Access issues
+Earthen,Environmental,Inundation risks
+Earthen,Environmental,Sediment buildup
+Earthen,Environmental,Downstream impacts

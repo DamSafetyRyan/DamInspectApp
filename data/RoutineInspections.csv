@@ -1,0 +1,44 @@
+Dam_Type,Category,Observation
+Concrete,Structural Integrity,Concrete deterioration
+Concrete,Structural Integrity,Concrete cracks
+Concrete,Structural Integrity,Spalling
+Concrete,Structural Integrity,Surface erosion
+Concrete,Seepage and Drainage,Seepage through joints
+Concrete,Seepage and Drainage,Drain blockages
+Concrete,Seepage and Drainage,Pipe leaks
+Concrete,"Spillways, Outlets, and Appurtenant Structures",Spillway blockages
+Concrete,"Spillways, Outlets, and Appurtenant Structures",Gate malfunctions
+Concrete,"Spillways, Outlets, and Appurtenant Structures",Outlet erosion
+Concrete,"Spillways, Outlets, and Appurtenant Structures",Intake clogs
+Concrete,Instrumentation and Monitoring,Anomalous readings
+Concrete,Instrumentation and Monitoring,Equipment failures
+Concrete,Environmental,Water quality issues
+Concrete,Environmental,Sediment buildup
+Concrete,Environmental,Algae growth
+Concrete,Environmental,Contamination sources
+Concrete,Environmental,Wetland impacts
+Concrete,Environmental,Wildlife habitat effects
+Earthen,Seepage and Drainage,Downstream seepage
+Earthen,Seepage and Drainage,Sand boils
+Earthen,Seepage and Drainage,Drain blockages
+Earthen,Seepage and Drainage,Pipe leaks
+Earthen,Vegetation and Surface Conditions,Excessive vegetation
+Earthen,Vegetation and Surface Conditions,Animal burrows
+Earthen,Vegetation and Surface Conditions,Surface rutting
+Earthen,Vegetation and Surface Conditions,Protective covering damage
+Earthen,"Spillways, Outlets, and Appurtenant Structures",Spillway blockages
+Earthen,"Spillways, Outlets, and Appurtenant Structures",Gate malfunctions
+Earthen,"Spillways, Outlets, and Appurtenant Structures",Outlet erosion
+Earthen,"Spillways, Outlets, and Appurtenant Structures",Intake clogs
+Earthen,Instrumentation and Monitoring,Anomalous readings
+Earthen,Instrumentation and Monitoring,Equipment failures
+Earthen,Environmental,Water quality issues
+Earthen,Environmental,Sediment buildup
+Earthen,Environmental,Algae growth
+Earthen,Environmental,Contamination sources
+Earthen,Environmental,Wetland impacts
+Earthen,Environmental,Wildlife habitat effects
+Earthen,Miscellaneous,Observation needs to be defined
+Concrete,Miscellaneous,Observation needs to be defined
+Earthen,Embankment Integrity,Observation needs to be defined
+Concrete,Vegetation and Surface Conditions,Observation needs to be defined

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "LADWP001",
+    "nidId": "CA00123",
+    "name": "Mulholland Dam",
+    "type": "Concrete Arch",
+    "ownerName": "Los Angeles Department of Water and Power",
+    "coordinates": {
+      "latitude": 34.1197,
+      "longitude": -118.3414
+    },
+    "height": 200,
+    "length": 612,
+    "yearCompleted": 1924,
+    "capacity": 7900,
+    "hazardLevel": "High",
+    "conditionAssessment": "Satisfactory",
+    "lastInspectionDate": "2024-01-15",
+    "primaryPurpose": "Water Supply",
+    "river": "Hollywood Creek",
+    "county": "Los Angeles",
+    "state": "CA"
+  },
+  {
+    "id": "LADWP002", 
+    "nidId": "CA00124",
+    "name": "Castaic Dam",
+    "type": "Earth Fill",
+    "ownerName": "Los Angeles Department of Water and Power",
+    "coordinates": {
+      "latitude": 34.4889,
+      "longitude": -118.6283
+    },
+    "height": 340,
+    "length": 3200,
+    "yearCompleted": 1973,
+    "capacity": 325000,
+    "hazardLevel": "High",
+    "conditionAssessment": "Satisfactory",
+    "lastInspectionDate": "2024-02-20",
+    "primaryPurpose": "Water Supply",
+    "river": "Castaic Creek",
+    "county": "Los Angeles",
+    "state": "CA"
+  },
+  {
+    "id": "LADWP003",
+    "nidId": "CA00125", 
+    "name": "Pyramid Dam",
+    "type": "Earth Fill",
+    "ownerName": "Los Angeles Department of Water and Power",
+    "coordinates": {
+      "latitude": 34.6833,
+      "longitude": -118.8167
+    },
+    "height": 397,
+    "length": 2500,
+    "yearCompleted": 1973,
+    "capacity": 170000,
+    "hazardLevel": "High",
+    "conditionAssessment": "Satisfactory", 
+    "lastInspectionDate": "2024-01-30",
+    "primaryPurpose": "Water Supply",
+    "river": "Piru Creek",
+    "county": "Los Angeles",
+    "state": "CA"
+  },
+  {
+    "id": "LADWP004",
+    "nidId": "CA00126",
+    "name": "Bouquet Canyon Dam",
+    "type": "Earth Fill",
+    "ownerName": "Los Angeles Department of Water and Power", 
+    "coordinates": {
+      "latitude": 34.4667,
+      "longitude": -118.4167
+    },
+    "height": 225,
+    "length": 1200,
+    "yearCompleted": 1934,
+    "capacity": 36500,
+    "hazardLevel": "Significant",
+    "conditionAssessment": "Fair",
+    "lastInspectionDate": "2024-03-10",
+    "primaryPurpose": "Water Supply",
+    "river": "Bouquet Creek",
+    "county": "Los Angeles",
+    "state": "CA"
+  },
+  {
+    "id": "LADWP005",
+    "nidId": "CA00127",
+    "name": "Sepulveda Dam",
+    "type": "Earth Fill",
+    "ownerName": "Los Angeles Department of Water and Power",
+    "coordinates": {
+      "latitude": 34.1681,
+      "longitude": -118.4642
+    },
+    "height": 42,
+    "length": 15000,
+    "yearCompleted": 1941,
+    "capacity": 17400,
+    "hazardLevel": "High",
+    "conditionAssessment": "Satisfactory",
+    "lastInspectionDate": "2024-02-05",
+    "primaryPurpose": "Flood Control",
+    "river": "Los Angeles River",
+    "county": "Los Angeles", 
+    "state": "CA"
+  },
+  {
+    "id": "LADWP006",
+    "nidId": "CA00128",
+    "name": "Haiwee Reservoir Dam",
+    "type": "Earth Fill",
+    "ownerName": "Los Angeles Department of Water and Power",
+    "coordinates": {
+      "latitude": 36.0167,
+      "longitude": -118.0833
+    },
+    "height": 65,
+    "length": 2800,
+    "yearCompleted": 1913,
+    "capacity": 6900,
+    "hazardLevel": "Significant",
+    "conditionAssessment": "Fair",
+    "lastInspectionDate": "2024-01-25",
+    "primaryPurpose": "Water Supply",
+    "river": "Owens River",
+    "county": "Inyo",
+    "state": "CA"
+  },
+  {
+    "id": "LADWP007",
+    "nidId": "CA00129", 
+    "name": "Crowley Lake Dam",
+    "type": "Earth Fill",
+    "ownerName": "Los Angeles Department of Water and Power",
+    "coordinates": {
+      "latitude": 37.6167,
+      "longitude": -118.7333
+    },
+    "height": 130,
+    "length": 3200,
+    "yearCompleted": 1941,
+    "capacity": 183465,
+    "hazardLevel": "High",
+    "conditionAssessment": "Satisfactory",
+    "lastInspectionDate": "2024-03-01",
+    "primaryPurpose": "Water Supply",
+    "river": "Owens River",
+    "county": "Mono",
+    "state": "CA"
+  },
+  {
+    "id": "LADWP008",
+    "nidId": "CA00130",
+    "name": "Grant Lake Dam",
+    "type": "Earth Fill", 
+    "ownerName": "Los Angeles Department of Water and Power",
+    "coordinates": {
+      "latitude": 37.7833,
+      "longitude": -119.1167
+    },
+    "height": 45,
+    "length": 1800,
+    "yearCompleted": 1940,
+    "capacity": 47500,
+    "hazardLevel": "Significant",
+    "conditionAssessment": "Satisfactory",
+    "lastInspectionDate": "2024-02-15",
+    "primaryPurpose": "Water Supply", 
+    "river": "Rush Creek",
+    "county": "Mono",
+    "state": "CA"
+  },
+  {
+    "id": "LADWP009",
+    "nidId": "CA00131",
+    "name": "Tinemaha Reservoir Dam",
+    "type": "Earth Fill",
+    "ownerName": "Los Angeles Department of Water and Power",
+    "coordinates": {
+      "latitude": 37.0667,
+      "longitude": -118.3833
+    },
+    "height": 85,
+    "length": 2100,
+    "yearCompleted": 1940,
+    "capacity": 26400,
+    "hazardLevel": "Significant",
+    "conditionAssessment": "Fair",
+    "lastInspectionDate": "2024-01-10",
+    "primaryPurpose": "Water Supply",
+    "river": "Owens River",
+    "county": "Inyo",
+    "state": "CA"
+  },
+  {
+    "id": "LADWP010",
+    "nidId": "CA00132",
+    "name": "Pleasant Valley Reservoir Dam", 
+    "type": "Earth Fill",
+    "ownerName": "Los Angeles Department of Water and Power",
+    "coordinates": {
+      "latitude": 37.4167,
+      "longitude": -118.5333
+    },
+    "height": 120,
+    "length": 1600,
+    "yearCompleted": 1955,
+    "capacity": 68100,
+    "hazardLevel": "High",
+    "conditionAssessment": "Satisfactory",
+    "lastInspectionDate": "2024-02-28",
+    "primaryPurpose": "Water Supply",
+    "river": "Owens River",
+    "county": "Mono",
+    "state": "CA"
+  }
+]

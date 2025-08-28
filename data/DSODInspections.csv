@@ -1,0 +1,81 @@
+Dam_Type,Category,Observation
+Concrete,Structural Integrity,Concrete cracks
+Concrete,Structural Integrity,Spalling
+Concrete,Structural Integrity,Efflorescence
+Concrete,Structural Integrity,Scaling
+Concrete,Structural Integrity,Pitting
+Concrete,Structural Integrity,Joint offsets
+Concrete,Structural Integrity,Foundation erosion
+Concrete,Structural Integrity,Abutment movement
+Concrete,Vegetation and Surface Conditions,Vegetation in joints
+Concrete,Vegetation and Surface Conditions,Surface debris
+Concrete,Vegetation and Surface Conditions,Graffiti
+Concrete,Vegetation and Surface Conditions,Surface staining
+Concrete,Seepage and Drainage,Seepage through joints
+Concrete,Seepage and Drainage,Drain blockages
+Concrete,Seepage and Drainage,Uplift pressures
+Concrete,Seepage and Drainage,Leakage at contacts
+Concrete,Seepage and Drainage,Efflorescence from seepage
+Concrete,"Spillways, Outlets, and Appurtenant Structures",Spillway blockages
+Concrete,"Spillways, Outlets, and Appurtenant Structures",Gate malfunctions
+Concrete,"Spillways, Outlets, and Appurtenant Structures",Outlet erosion
+Concrete,"Spillways, Outlets, and Appurtenant Structures",Intake clogs
+Concrete,"Spillways, Outlets, and Appurtenant Structures",Wall stability
+Concrete,"Spillways, Outlets, and Appurtenant Structures",Lining deterioration
+Concrete,"Spillways, Outlets, and Appurtenant Structures",Control operability
+Concrete,"Spillways, Outlets, and Appurtenant Structures",Trashrack condition
+Concrete,Instrumentation and Monitoring,Anomalous readings
+Concrete,Instrumentation and Monitoring,Equipment failures
+Concrete,Instrumentation and Monitoring,Piezometer conditions
+Concrete,Instrumentation and Monitoring,Survey monument shifts
+Concrete,Miscellaneous,Unauthorized structures
+Concrete,Miscellaneous,Vandalism signs
+Concrete,Miscellaneous,Access road condition
+Concrete,Miscellaneous,Safety hazards
+Concrete,Environmental,Water quality issues
+Concrete,Environmental,Sediment buildup
+Concrete,Environmental,Algae growth
+Concrete,Environmental,Contamination sources
+Concrete,Environmental,Wetland impacts
+Concrete,Environmental,Wildlife habitat effects
+Earthen,Embankment Integrity,Embankment cracks
+Earthen,Embankment Integrity,Surface settlement
+Earthen,Embankment Integrity,Slope slumps
+Earthen,Embankment Integrity,Erosion on slopes
+Earthen,Embankment Integrity,Crest misalignment
+Earthen,Embankment Integrity,Sinkholes
+Earthen,Embankment Integrity,Bulges
+Earthen,Seepage and Drainage,Downstream seepage
+Earthen,Seepage and Drainage,Sand boils
+Earthen,Seepage and Drainage,Drain blockages
+Earthen,Seepage and Drainage,Pipe leaks
+Earthen,Seepage and Drainage,Wet areas
+Earthen,Seepage and Drainage,Piping erosion
+Earthen,Vegetation and Surface Conditions,Excessive vegetation
+Earthen,Vegetation and Surface Conditions,Animal burrows
+Earthen,Vegetation and Surface Conditions,Surface rutting
+Earthen,Vegetation and Surface Conditions,Protective covering damage
+Earthen,Vegetation and Surface Conditions,Rodent activity
+Earthen,Vegetation and Surface Conditions,Erosion rills
+Earthen,"Spillways, Outlets, and Appurtenant Structures",Spillway blockages
+Earthen,"Spillways, Outlets, and Appurtenant Structures",Gate malfunctions
+Earthen,"Spillways, Outlets, and Appurtenant Structures",Outlet erosion
+Earthen,"Spillways, Outlets, and Appurtenant Structures",Intake clogs
+Earthen,"Spillways, Outlets, and Appurtenant Structures",Conduit condition
+Earthen,"Spillways, Outlets, and Appurtenant Structures",Trashrack condition
+Earthen,"Spillways, Outlets, and Appurtenant Structures",Control operability
+Earthen,Instrumentation and Monitoring,Anomalous readings
+Earthen,Instrumentation and Monitoring,Equipment failures
+Earthen,Instrumentation and Monitoring,Piezometer conditions
+Earthen,Instrumentation and Monitoring,Settlement monuments
+Earthen,Instrumentation and Monitoring,Seepage weirs
+Earthen,Miscellaneous,Unauthorized structures
+Earthen,Miscellaneous,Vandalism signs
+Earthen,Miscellaneous,Access road condition
+Earthen,Miscellaneous,Safety hazards
+Earthen,Environmental,Water quality issues
+Earthen,Environmental,Sediment buildup
+Earthen,Environmental,Algae growth
+Earthen,Environmental,Contamination sources
+Earthen,Environmental,Wetland impacts
+Earthen,Environmental,Wildlife habitat effects
