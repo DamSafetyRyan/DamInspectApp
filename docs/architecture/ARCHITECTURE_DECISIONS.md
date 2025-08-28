@@ -20,8 +20,6 @@ This document outlines critical architecture decisions for the DamInspect mobile
 - **SOLID Principles**: Maintainable, extensible codebase
 - **Twelve-Factor App**: Cloud-native, scalable deployment
 
-## System Requirements
-
 ### Performance Requirements
 | Metric | Target | Rationale |
 |--------|--------|-----------|
@@ -31,13 +29,6 @@ This document outlines critical architecture decisions for the DamInspect mobile
 | Sync Latency | < 5 minutes | Timely availability for engineers and managers |
 | Offline Operation | Unlimited | Remote dam sites lack connectivity |
 | GPS Lock Time | < 10 seconds | Accurate location tracking for observations |
-
-### Scalability Requirements
-- Support 10,000+ inspectors across multiple organizations
-- Handle 500,000+ inspections per year
-- Store 10TB+ of inspection media annually
-- Process 50,000+ sync operations per hour
-- Support 100+ concurrent organizations
 
 ### Reliability Requirements
 - 99.99% data integrity for safety-critical inspections

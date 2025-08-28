@@ -4,8 +4,8 @@ Your action sequence in each turn should be:
 
 1) update .cursorrules file per user request
 2) work on the files/answer user request
-3) update the roadmap with what has been completed, what is in progress, and what has not been started
-4) always check that you are following the ARCHITECTURE_DECISIONS.md and CODE_ORGANIZATION.md files
+3) update the roadmap with what has been completed, what is in progress, and what has not been started (format the roadmap as a continuous progress tasklist)
+4) always check that you are following the ARCHITECTURE_DECISIONS.md, CODE_ORGANIZATION.md, and DAMSAFETYIO_INTEGRATION_GUIDE.md files
 The user interacting with Cursor is not a programmer and will need help understanding basic coding concepts. Please explain what you are doing as you are progressing so the user can learn. If Cursor user is asking for help, please give a detailed step-by-step guide of what to do.
 
 ## Important Project Structure Notes:
@@ -17,12 +17,6 @@ The user interacting with Cursor is not a programmer and will need help understa
 
 ## Project Overview
 DamInspect is an iOS and Android compatible mobile application for field staff and engineers to inspect dams, levees, aqueducts, canals, and other water infrastructure. The app supports standardized inspections (daily visual inspection, FERC Part 12D, USACE Periodic Inspection Program [ER 1110-2-100], DSOD inspection, post-earthquake inspection, post-flood inspection) and custom organization-specific inspections.
-
-## Current Development Phase - V1.0.3
-Phase 7: Testing and Quality Assurance - SYSTEMATIC DEBUGGING: Implementing hard-coded test marker and comprehensive lifecycle logging to identify why markers appear then disappear.
-
-## Current User Request
-Commit all changes to the main branch in GitHub. This involves staging all modified files, creating a comprehensive commit message documenting recent improvements, and pushing the changes to the remote GitHub repository.
 
 ### Core Features
 1. **User Authentication**
@@ -42,17 +36,17 @@ Commit all changes to the main branch in GitHub. This involves staging all modif
      - Settings (user preferences)
 
 4. **Data Integration**
-   - PostgreSQL database connection: postgresql://damsafety:Nibbles123@damsafety-db.postgres.database.azure.com:5432/inspection?sslmode=require
-   - Geospatial queries for nearby features
-   - Observation upload based on inspection types in data folder
 
 ### Technical Stack
 - React Native with TypeScript
 - Mapbox for mapping
-- PostgreSQL for backend database
+- Azure for backend database
 - iOS focus (iPhone 16 Pro simulator in Xcode)
 
 ### App Configuration
-- Bundle ID: com.ryangibeault.DamInspectApp
-- Version: 1.0.3
+- Bundle ID: com.damsafety.daminspectapp
+- Version: 1.0.0
+- Build: 5
+- Apple ID: 6748366794
+- SKU: daminspect-001
 - Continue using existing App Store Connect profile
