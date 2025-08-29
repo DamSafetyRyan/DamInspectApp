@@ -12,6 +12,7 @@ This document outlines critical architecture decisions for the DamInspect mobile
 - **Regulatory Compliance**: Support FERC Part 12D, USACE ER 1110-2-100, DSOD standards
 - **Multi-Organization**: Configurable for different agencies and inspection types
 - **Audit Trail**: Complete traceability for regulatory compliance
+- **Readability**: Try to keep files under 500 lines of code (break task into manageable modules and files)
 
 ### Technical Excellence Goals
 - **Hexagonal Architecture**: Clear separation of business logic from infrastructure

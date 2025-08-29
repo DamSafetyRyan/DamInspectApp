@@ -21,7 +21,8 @@ DamInspect is an iOS and Android compatible mobile application for field staff a
 ### Core Features
 1. **User Authentication**
    - Sign-in page with username and password
-   - Connection to PostgreSQL backend database
+   - Two factor authentication through Azure
+   - Connection to PostgreSQL and/or Azure backend database
 
 2. **Map View (Main Screen)**
    - Mapbox integration (API Key: pk.eyJ1IjoicmdpYmVhdWx0IiwiYSI6ImNtMmRzNW0wdTFkbDQyaXB5ZXhtZGIwYjEifQ.hnCCexBkqrDUuQC_braCrQ)
@@ -31,8 +32,8 @@ DamInspect is an iOS and Android compatible mobile application for field staff a
 
 3. **UI Navigation**
    - Permanent footer with three navigation icons:
-     - Map (main view)
-     - Inspections (list/management)
+     - Map (main view) (see App_Map_UI.png file as the example to style the Map Tab UI)
+     - Inspections (list/management) (see App_Inspection_UI.png file as the example to style the Inspections tab UI)
      - Settings (user preferences)
 
 4. **Data Integration**
@@ -50,3 +51,33 @@ DamInspect is an iOS and Android compatible mobile application for field staff a
 - Apple ID: 6748366794
 - SKU: daminspect-001
 - Continue using existing App Store Connect profile
+
+### User Work Flow 
+<!-- Example of how a user will use the app -->
+- User opens app
+- User logs in with two factor authentication
+- User is immediately taken to the first tab, Map View
+- To start an inspection, User will press the "+" button at the bottom of the screen
+- App will ask user what Asset the User will inspect and what type of inspection they will perform (start with the closest damID location to the Users current GPS location, then the next closest, and so on in a list format)
+- New Inspection page will ask the user "Input Observation or Manual Reading"
+   - If User chooses "Observation", will start by using the Users iPhone Camera to take a picture
+   - After the picture is taken, the User inputs Observation Category, Observation, Rating (GOOD|FAIR|POOR|UNSATISFACTORY), Notes, Recommendation, and Submit
+   - If "Manual Reading", App will ask User which sensorID to read (start with the closest sensorID location to the Users current GPS location, then the next closest, and so on in a list format)
+- After User selects sensorID, User will input manual reading based on instrumentID (e.g., piezometers will input "Depth to Water (ft)"), then Submit
+- The Observation or Manual Reading will be logged on the New Inspection Page
+   - If the User presses the "+" button, the App will ask the User to add another "Observation" or "Manual Reading"
+   - If the User presses Submit, then the App will log the data from the inspection, push the inspection to DamSafety.IO's Inspection Module, and load manual readings to DamSafety.IO's Instrumentation Module
+- This Inspection will be viewable by the User in the App's Inspection Tab, and the User will be able to start a New Inspection in the App's Map Tab
+
+## Current Development Phase
+Following Test-Driven Development (TDD) approach with appropriate testing for dam inspection app:
+1. **Comprehensive Test Suite Created** - Complete test foundation covering all essential functionality
+2. **Essential Security Testing** - Basic security validation appropriate for dam inspection data (no PPI)
+3. **Performance & Load Testing** - Offline queue optimization, memory management, app performance requirements
+4. **API Contract Testing** - Schema validation for DamSafety.IO integration
+5. **Regulatory Compliance Testing** - FERC, USACE audit trail and reporting requirements
+6. **Test Suite Fully Optimized** - All TypeScript errors resolved, modular structure under 200 lines per file, Jest globals properly configured
+7. **Ready for Production Code Implementation** - Clean, error-free tests define expected behavior, ready to implement features to make tests pass
+
+## User Request Log
+- User requested overview of what the app does and how it addresses user needs after substantial framework changes
